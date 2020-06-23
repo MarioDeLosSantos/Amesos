@@ -1,0 +1,17 @@
+<html>
+<div>
+<script>
+
+    function makeButton(variable)
+    {
+        window.location.href = window.location.href + '?' + variable + '=true';
+        console.log(window.location.href);
+    }     
+    </script>
+
+    <button onclick="makeButton('info')">Info</button>
+    <button onclick="makeButton('encender')">Encender</button>
+    <button onclick="makeButton('apagar')">Apagar</button>
+
+</div>
+</html>

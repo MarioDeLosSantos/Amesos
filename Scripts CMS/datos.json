@@ -1,0 +1,29 @@
+{
+  "Centres": [
+    {
+      "public_ip": "62.42.85.134",
+      "private_ip": "192.168.1.5",
+      "port": 6000,
+      "user": "mario",
+      "password": "linuxso",
+      "name": "Centro1",
+      "state": true,
+      "CPU": 44,
+      "NextAvaliablePort": 5003,
+      "NextSSHPort": 6003,
+      "TimeUp": 132,
+      "Mem": 16,
+      "UnusedPorts": [
+        {
+          "name": "Servidor1",
+          "number": 5002
+        },
+        {
+          "name": "Servidor0",
+          "number": 5001
+        }
+      ],
+      "Servers": []
+    }
+  ]
+}
